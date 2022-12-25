@@ -14,3 +14,4 @@ TriviaGame:
 Removed unnecessary methods: public String createRockQuestion(int index), public int howManyPlayers(), protected void announce(Object message)
 In private String currentCategory() method, number of if conditions are reduced
 Decomposed public void roll(int roll) into two mwthods to avoid long methods
+Removed dead method public boolean isPlayable().
