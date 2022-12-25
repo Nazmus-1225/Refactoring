@@ -26,9 +26,6 @@ public class TriviaGame {
 		}
 	}
 
-	public boolean isPlayable() {
-		return (players.size() >= 2);
-	}
 
 	public boolean add(String playerName) {
 		players.add(playerName);
@@ -146,5 +143,5 @@ public class TriviaGame {
 		return !(purses[currentPlayer] == 6);
 	}
 
-	
+
 }
